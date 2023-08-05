@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">TOURS</a></li>
+            <li><a href="#">EXPLORE</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li class="ctn" ><a href="#">contact</a></li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>EXPLORE THE COLOREFUL BIHAR </h2>
+            <div class="line"></div><br>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn"> Learn more</a>
+        </div>
+    </header>
+    <section class="Events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="istockphoto-530927704-612x612.jpg" alt="">
+                <h4>The Great Buddha Statue in Bodhgaya, India</h4>
+                <p> The Statue is now a symbol of the holy place Bodhgaya, next to Mahabohdi Temple which is a World Heritage site.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="KHUD.jpg" alt="">
+                <h4>KHUDNESHWER TEMPLE , Samastipur</h4>
+                <p> Lord Shiva.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="explore">
+        <div class="explore-content">
+       <h1>Explore the WONDERFUL Bihar</h1>
+       <div class="line"></div>
+        <p>The Bihar Legislative Assembly also known as the Bihar Vidhan Sabha is the lower house of the bicameral Bihar Legislature of the state of Bihar in India. The first state elections were held in 1952. The total strength of membership in the Assembly was 331, including one nominated member.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours & Destination</h1>
+                <p><H2>Bihar is a state in eastern India. It is the third largest state by population, the 12th largest by area, and the 14th largest by GDP in 2021. Bihar borders Uttar Pradesh to its west, Nepal to the north, the northern part of West Bengal to the east, and with Jharkhand to the south. The Bihar plain is split by the river Ganges, which flows from west to east. Main festival of Bihar is CHHATH PUJA</H2></p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div style="background-color: aqua;">
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="stock-photo-shyama-mai-temple-and-shiv-temple-darbhanga-bihar-india-2016330500.jpg" alt="">
+                    <img src="pexels-yogendra-singh-1630785.jpg" alt="">
+                    
+                </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>RAUSHAN KUMAR </p>
+        <p>Parhetta , Latbasepura , Musrigharari , Samastipur , Bihar (848101) </p>
+    </section>
+
+
+
+
+
+
+
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menubtn.addEventListener('click' , ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
